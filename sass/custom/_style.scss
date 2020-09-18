@@ -42,7 +42,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
-	background: url('/images/bg-dark.jpg');
+	background: url('../images/bg-dark.jpg');
 }
 
 .screen-reader-text {
@@ -196,11 +196,11 @@ p:empty {
 }
 
 .paper-bgr {
-	background-image: url('/images/bg-paper.png');
+	background-image: url('../images/bg-paper.png');
 }
 
 .black-bgr {
-	background: url('/images/bg-dark.jpg');
+	background: url('../images/bg-dark.jpg');
 }
 
 .text-deco {
@@ -215,14 +215,14 @@ p:empty {
 		transform: translateX(-50%);
 		width: 130px;
 		height: 30px;
-		background-image: url('/images/orac-decoration-gold.svg');
+		background-image: url('../images/orac-decoration-gold.svg');
 		background-size: contain;
 		background-position: center center;
 		background-repeat: no-repeat;
 	}
 	&.white-text-deco {
 		&:before {
-			background-image: url('/images/orac-decoration-white.svg');
+			background-image: url('../images/orac-decoration-white.svg');
 		}
 	}
 }
@@ -377,7 +377,7 @@ p:empty {
 				left: 0;
 				top: -110vh;
 				transform: none;
-				background: url('/images/bg-dark.jpg');
+				background: url('../images/bg-dark.jpg');
 				pointer-events: none;
 				&.open {
 					top: 0;
@@ -785,16 +785,16 @@ p:empty {
 				background-repeat: no-repeat;
 			}
 			&.phone-info:after {
-				background-image: url('/images/icn-phone.svg');
+				background-image: url('../images/icn-phone.svg');
 			}
 			&.email-info:after {
-				background-image: url('/images/icn-email.svg');
+				background-image: url('../images/icn-email.svg');
 			}
 			&.address-info:after {
-				background-image: url('/images/icn-location.svg');
+				background-image: url('../images/icn-location.svg');
 			}
 			&.time-info:after {
-				background-image: url('/images/icn-time.svg');
+				background-image: url('../images/icn-time.svg');
 			}
 		}
 		span {
@@ -937,17 +937,17 @@ p:empty {
 	}
 	.address {
 		&:before {
-			background-image: url('/images/ico-location.svg');
+			background-image: url('../images/ico-location.svg');
 		}
 	}
 	.phone {
 		&:before {
-			background-image: url('/images/ico-phone.svg');
+			background-image: url('../images/ico-phone.svg');
 		}
 	}
 	.email {
 		&:before {
-			background-image: url('/images/ico-email.svg');
+			background-image: url('../images/ico-email.svg');
 		}
 	}
 	@media (max-width: $breakpoint-small) {
